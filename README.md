@@ -1,8 +1,8 @@
-Welcome to Amazon S3 ClickStart on CloudBees
+Welcome to  JCluoud Amazon S3 ClickStart on CloudBees
 
-This is a "ClickStart" that gets you going with a simple Maven Amazon S3 "seed" project starting point, which will show you how to upload an image to a permanent filesysten in Amazon S3. You can launch it here:
+This is a "ClickStart" that gets you going with a simple Maven Amazon S3 "seed" project starting point, which will show you how to upload an image to a permanent filesysten in Amazon S3 using Jcloud libraries. You can launch it here:
 
-<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/Cloudbees-community/tomcat7-hibernate-s3-clickstart/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
+<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/Cloudbees-community/tomcat7-jcloud-amazons3-clickstart/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
 
 This will setup a continuous deployment pipeline - a CloudBees Git repository, a Jenkins build compiling and running the test suite (on each commit).
 Should the build succeed, this seed app is deployed on a Tomcat 7 container.
