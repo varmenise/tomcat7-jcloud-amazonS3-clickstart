@@ -15,7 +15,6 @@
  */
 package localdomain.localhost;
 
-//import com.amazonaws.services.s3.model.ObjectMetadata;
 
 import localdomain.localhost.domain.Product;
 
