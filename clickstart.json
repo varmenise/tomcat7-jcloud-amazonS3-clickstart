@@ -1,0 +1,25 @@
+{
+    "id": "tomcat7-hibernate-s3-clickstart",
+    "name": "Hibernate Amazon S3 on Tomcat 7",
+    "source": "git://github.com/CloudBees-community/tomcat7-hibernate-s3-clickstart.git",
+    "description" : "Deploy your Amazon S3 web application on Tomcat 7",
+    "icon": "https://raw.github.com/CloudBees-community/tomcat7-hibernate-s3-clickstart/master/clickstart-icon.png",
+    "doc-url" : "https://github.com/CloudBees-community/tomcat7-hibernate-s3-clickstart/blob/master/README.md",
+    "app-package" : "http://repository-community.forge.cloudbees.com/release/localdomain/localhost/tomcat7-hibernate-amazonS3-clickstart/1.0/tomcat7-hibernate-amazonS3-clickstart-1.0.war",
+    "supported-by" : "cloudbees",
+
+    "runtime": {
+        "type": "tomcat7"
+    },
+    "databases": [
+        {
+            "type": "mysql",
+            "alias": "mydb"
+        }
+    ],
+    "build-with-jenkins": {
+        "template": {
+            "type": "maven"
+        }
+    }
+}
